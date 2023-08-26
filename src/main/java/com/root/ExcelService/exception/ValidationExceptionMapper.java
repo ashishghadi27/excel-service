@@ -1,8 +1,8 @@
 package com.root.ExcelService.exception;
 
-import com.root.redis.constants.ExceptionConstants;
-import com.root.redis.exception.ValidationException;
-import com.root.redis.vo.ErrorVO;
+import com.root.commondependencies.constants.ExceptionConstants;
+import com.root.commondependencies.exception.ValidationException;
+import com.root.commondependencies.vo.ErrorVO;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
